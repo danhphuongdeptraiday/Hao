@@ -70,7 +70,7 @@ if (user === "") {
   text_2.innerHTML = "Create your account for free!"
   avatar.innerHTML = ""
   avatar.innerHTML = `
-    <img src="/avatar.webp" alt="avatar" class="avatar_image" />
+    <img src="../avatar.webp" alt="avatar" class="avatar_image" />
   `
 
   let text = document.createElement('div');
