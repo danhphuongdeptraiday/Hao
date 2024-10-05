@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/CSS/Home.css">
+  <script src="https://kit.fontawesome.com/b25957ae4f.js" src="https://code.jquery.com/jquery-3.6.0.min.js"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="modal"></div>
+  <div id="search_bar">
+    <div id="account">
+      <p id="account_text_1"></p>
+      <b id="account_email"></b>
+      <p id="account_text_2"></p>
+    </div>
+    <input placeholder="Search for post" id="search_input">
+    <button id="search_button"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div>
+  <nav class="navbar1">
+    <div class="avatar" id="avatar"></div>
+    <div class="navbar2">
+      <i class="fa-solid fa-house icon"></i>
+      <a href="/HTML/Home.html" class="a">Home</a>
+      <i class="fa-solid fa-user icon"></i>
+      <a href="/index.html" class="a">Admin</a>
+      <i class="fa-solid fa-user-plus icon"></i>
+      <a href="/HTML/Register.html" class="a">Register</a>
+      <i class="fa-solid fa-right-to-bracket icon"></i>
+      <a href="/HTML/Login.html" class="a">Login</a>
+      <i class="fa-solid fa-right-from-bracket icon"></i>
+      <p id="signout">Logout</p>
+      <div class="scroll_text">
+        <i class="fa-solid fa-arrow-down"></i>
+        <div>Scroll down to see more...</div>
+      </div>
+    </div>
+  </nav>
+  <div id="search_results"></div>
+  <div id="postContainer"></div>
+  <script type="module" src="/JS/Home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  background-color: #f3e7d4;
+  color:  #31220b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #31220b solid;
+  width: 95%;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  margin-left: 1%;
+}
+.navbar2 a {
+  text-decoration: none;
+  color:  #31220b;
+  font-size: 2rem;
+}
+.a:hover {
+  text-decoration: solid;
+  color: #c57c0f;
+}
+.register {
+  width: 30%;
+  height: 500px;
+  border: 3px solid #31220b;
+  border-radius: 40px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.register h1 {
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+.register label {
+  margin-left: 20px;
+}
+
+
+.register_input {
+  width: 80%;
+  margin-top: 5px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 40px;
+}
+
+#register_btn {
+  text-align: center;
+  width: 30%;
+  background-color: #31220b;
+  color: #f3e7d4;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  font-family: 'Raleway';
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  text-decoration: none;
+  margin-top: 65px;
+}
+
+#register_btn:hover {
+  background-color: #c57c0f;
+}

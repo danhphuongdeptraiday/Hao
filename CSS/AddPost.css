@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lato:wght@400;700&display=swap');
+
+
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  font-family: 'Raleway';
+  background-color: #f3e7d4;
+  color:  #31220b;
+  min-height: 100vh;
+}
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px #31220b solid;
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+.navbar2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+}
+.navbar2 a {
+  text-decoration: none;
+  color:  #31220b;
+  font-size: 2rem;
+  margin-left: 4%;
+}
+.a:hover {
+  text-decoration: solid;
+  color:  #c57c0f;
+}
+.account {
+  width: 50%;
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#account_text_1 {
+  margin-right: 10px;
+}
+
+#account_text_2 {
+  margin-right: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#signout {
+  border: none;
+  background: none;
+  color: #31220b;
+}
+#signout:hover {
+  color: #c57c0f;
+}
+
+.container {
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+  border: 3px #31220b solid;
+  width: 40%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container b {
+  font-size: 3rem;
+  margin-top: -30px;
+}
+
+input {
+  width: 80%;
+  height: 30px;
+  border-radius: 30px;
+  border: 1px #31220b solid;
+  padding: 10px;
+}
+#imgInput {
+  margin-top: -40px;
+}
+
+textarea {
+  width: 80%;
+  border-radius: 30px;
+  border: 1px #31220b solid;
+  margin-top: -40px;
+  padding: 10px;
+}
+
+#addPostBTN {
+  text-align: center;
+  width: 45%;
+  background-color: #31220b;
+  color: #f3e7d4;
+  font-size: 2rem;
+  border-radius: 30px;
+  font-family: 'Raleway';
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: none;
+  text-decoration: none;
+}
+#addPostBTN:hover {
+  background-color: #c57c0f;
+}
